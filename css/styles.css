@@ -1,0 +1,112 @@
+/* обнуление */
+
+::before,
+::after {
+    padding: 0;
+    margin: 0;
+    border: 0;
+    box-sizing:border-box;
+}
+
+a {
+    text-decoration: none;
+}
+
+ul,
+ol, 
+li {
+    list-style: none;
+}
+
+img {
+    vertical-align: center;
+    width: 700px;
+    height: 500px;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-weight: inherit;
+    font-size: inherit;
+}
+
+html,
+body {
+    height: 100%;
+    line-height: 1;
+    font-size: 14px;
+    background-color:black;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.wrapper {
+    padding: 30px;
+    min-height: 100%;
+}
+/* ----------------------------------------------- */
+
+.title {
+    font-size: 30px;
+    font-weight: 700;
+    color:aliceblue;
+    margin: 0px 0px 30px 0px;
+}
+
+.image-slider {
+    padding: 30px 0 70px 0;
+}
+
+.image-slider_wrapper {
+
+}
+
+.image-slider_slide {
+
+}
+
+.image-slider_image{
+    text-align: center;
+}
+
+.image-slider_image img{
+    max-width: 100%;
+}
+
+/* стрелки */
+.image-slider .swiper-button-prev::after,
+.image-slider .swiper-button-next::after {
+    color: magenta;
+    font-size: 80px;
+}
+
+/* Пагинация */
+.image-slider .swiper-pagination {
+    bottom: 0;
+}
+
+/* Булеты */
+.image-slider .swiper-pagination-bullet {
+    width: 20px;
+    height: 20px;
+    line-height: 20px;
+    font-size: 14px;
+    background-color:blueviolet;   
+}
+
+/* Фракция */
+
+.image-slider .swiper-pagination-fraction {
+    font-size: 40px;
+    color:#fff;
+}
+
+/* Прогресбар */
+
+/* .image-slider .swiper-pagination-progressbar-fill {
+    background-color:rgb(235, 16, 191);
+
+} */
