@@ -20,8 +20,10 @@ li {
 
 img {
     vertical-align: center;
-    width: 700px;
+    /* width: 700px;
     height: 500px;
+    max-width: auto;
+    border-radius: 50%; */
 }
 
 h1,
@@ -100,13 +102,26 @@ body {
 /* Фракция */
 
 .image-slider .swiper-pagination-fraction {
-    font-size: 40px;
+    font-size: 20px;
     color:#fff;
 }
 
 /* Прогресбар */
 
-/* .image-slider .swiper-pagination-progressbar-fill {
+.image-slider .swiper-pagination-progressbar-fill {
     background-color:rgb(235, 16, 191);
+}
 
-} */
+/* Скролбар */
+
+.image-slider .swiper-scrollbar-drag {
+    cursor: pointer;
+    background-color:blueviolet;
+}
+
+.swiper-slide img {
+    border-radius: 50%;
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+}
